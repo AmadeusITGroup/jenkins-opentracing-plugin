@@ -1,0 +1,8 @@
+unclassified:
+  opentracing:
+    tracer:
+      jaeger:
+        ui: http://localhost/ui/
+        sender:
+          http:
+            endpoint: http://localhost/endpoint/

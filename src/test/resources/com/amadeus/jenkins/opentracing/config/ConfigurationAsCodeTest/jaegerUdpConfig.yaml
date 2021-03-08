@@ -1,0 +1,9 @@
+unclassified:
+  opentracing:
+    tracer:
+      jaeger:
+        ui: http://localhost/ui/
+        sender:
+          udp:
+            host: someHost
+            port: 1234

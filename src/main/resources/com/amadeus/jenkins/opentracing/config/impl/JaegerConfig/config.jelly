@@ -1,0 +1,7 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+  <f:dropdownDescriptorSelector field="sender" title="Sender" />
+  <f:entry title="Web UI URL">
+    <f:textbox field="ui"/>
+  </f:entry>
+</j:jelly>

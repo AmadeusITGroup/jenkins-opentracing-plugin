@@ -1,0 +1,9 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.amadeus.jenkins.opentracing.config.OTConfig plugin="opentracing@1.0-SNAPSHOT">
+  <tracer class="com.amadeus.jenkins.opentracing.config.impl.JaegerConfig">
+    <ui>http://localhost:3333/</ui>
+    <sender class="com.amadeus.jenkins.opentracing.config.impl.JaegerConfig$HttpSenderConfig">
+      <endpoint>http://localhost:2222/</endpoint>
+    </sender>
+  </tracer>
+</com.amadeus.jenkins.opentracing.config.OTConfig>

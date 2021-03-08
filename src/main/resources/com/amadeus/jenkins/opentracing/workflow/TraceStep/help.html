@@ -1,0 +1,23 @@
+<div>
+  Add tracing information to the pipeline execution.
+
+  Can be used with or without a body.
+
+  <div>
+    When called <b>with</b> a body it:
+    <ul>
+      <li>Executes the body under a new tracing span</li>
+      <li>Adds the passed parameters to this tracing span</li>
+      <li>Returns the value of the execution of the body</li>
+    </ul>
+  </div>
+
+  <div>
+    When called <b>without</b> a body it:
+  <ul>
+    <li>Does not create a new tracing span</li>
+    <li>Adds the information from the passed parameters to the currently active tracing span</li>
+    <li>Returns an object that can be used to customize the span further</li>
+  </ul>
+  </div>
+</div>

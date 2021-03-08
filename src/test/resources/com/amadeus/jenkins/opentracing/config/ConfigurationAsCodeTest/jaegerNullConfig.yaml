@@ -1,0 +1,7 @@
+unclassified:
+  opentracing:
+    tracer:
+      jaeger:
+        ui: http://localhost/ui/
+        sender:
+          "null": {}
